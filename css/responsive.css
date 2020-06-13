@@ -17,6 +17,22 @@
         background: linear-gradient(#dfdfdf, #a2a2a2);
     }
     /* menu bar responsive end */
+    /* photodiary part start here */
+    #photo-diary {
+        padding: 50px 0;
+    }
+    .photography-content h2 {
+        font-size: 33px;
+        padding: 10px 0;
+    }
+    .photography-content {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .pd {
+        padding: 0;
+    }
+    /* photodiary part end here */
 }
 
 
@@ -39,6 +55,22 @@
         background: linear-gradient(#dfdfdf, #a2a2a2);
     }
     /* menu bar responsive end */
+    /* photodiary part start here */
+    #photo-diary {
+        padding: 50px 0;
+    }
+    .pd {
+        padding: 0;
+    }
+    .photography-content h2 {
+        font-size: 33px;
+        padding: 10px 0;
+    }
+    .photography-content {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    /* photodiary part end here */
 }
 
 
@@ -61,6 +93,18 @@
         background: linear-gradient(#dfdfdf, #a2a2a2);
     }
     /* menu bar responsive end */
+    /* photodiary part start here */
+    #photo-diary {
+        padding: 50px 0;
+    }
+    .photography-content h2 {
+        font-size: 33px;
+        padding: 10px 0;
+    }
+    .photography-content {
+        padding: 0px 0px;
+    }
+    /* photodiary part end here */
 }
 
 

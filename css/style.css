@@ -73,12 +73,20 @@ p {
     color: #626262;
     font-size: 16px;
     font-weight: 600;
+    text-align: justify;
 }
 
 .photography-content a {
     text-transform: uppercase;
     color: #b4ad9e;
     font-size: 16px;
+    padding-top: 35px;
+    display: inline-block;
+}
+
+.photography-content a:hover {
+    text-decoration: none;
+    color: #626262;
 }
 
 
