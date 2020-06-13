@@ -1,5 +1,38 @@
+/* basic css */
+
 body {
     margin: 0;
     padding: 0;
+}
+
+* {
     font-family: 'Inconsolata', monospace;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    line-height: 150%;
+}
+
+
+/* header area start */
+
+.menu ul li a {
+    color: #626262 !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 80px;
+}
+
+.menu ul li a:active,
+.menu ul li a:focus {
+    color: #131313 !important;
+    font-weight: 700;
+}
+
+
+/* header area end */

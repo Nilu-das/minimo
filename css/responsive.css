@@ -1,16 +1,67 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    /* menu bar responsive start */
+    .menu ul li {
+        text-align: center;
+        color: #101010;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/toogle.png");
+    }
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+    .menu ul {
+        background: linear-gradient(#dfdfdf, #a2a2a2);
+    }
+    /* menu bar responsive end */
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* menu bar responsive start */
+    .menu ul li {
+        text-align: center;
+        color: #101010;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/toogle.png");
+    }
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+    .menu ul {
+        background: linear-gradient(#dfdfdf, #a2a2a2);
+    }
+    /* menu bar responsive end */
+}
 
 
 /* Medium devices (tablets, 768px and up)*/
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* menu bar responsive start */
+    .menu ul li {
+        text-align: center;
+        color: #101010;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/toogle.png");
+    }
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+    .menu ul {
+        background: linear-gradient(#dfdfdf, #a2a2a2);
+    }
+    /* menu bar responsive end */
+}
 
 
 /*Large devices (desktops, 992px and up)*/
@@ -21,7 +72,6 @@
 /* Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {}
-
 
 @media (min-width: 320px) and (max-width: 480px) {}
 
@@ -36,4 +86,3 @@
 @media (min-width: 800) and (max-width: 1280) {}
 
 @media (min-width: 1080) and (max-width: 1920) {}
-
