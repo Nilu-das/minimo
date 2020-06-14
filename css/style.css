@@ -7,7 +7,7 @@ body {
 }
 
 * {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 }
 
 p {
-    line-height: 150%;
+    line-height: 160%;
 }
 
 
@@ -52,31 +52,27 @@ p {
     padding: 100px 0;
 }
 
-.photography-content {
-    padding: 10px 125px;
-}
-
-.photography-content h4 {
+.content h4 {
     color: #b4ad9e;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.photography-content h2 {
+.content h2 {
     color: #626262;
     font-size: 35px;
     padding: 20px 0;
 }
 
-.photography-content p {
+.content p {
     color: #626262;
     font-size: 16px;
     font-weight: 600;
     text-align: justify;
 }
 
-.photography-content a {
+.content a {
     text-transform: uppercase;
     color: #b4ad9e;
     font-size: 16px;
@@ -84,7 +80,7 @@ p {
     display: inline-block;
 }
 
-.photography-content a:hover {
+.content a:hover {
     text-decoration: none;
     color: #626262;
 }
