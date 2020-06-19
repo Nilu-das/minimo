@@ -19,20 +19,25 @@
     /* menu bar responsive end */
     /* photodiary part start here */
     #photo-diary {
-        padding: 50px 0;
+        padding: 20px 0;
     }
-    .photography-content h2 {
-        font-size: 33px;
+    .content h2 {
+        font-size: 23px;
         padding: 10px 0;
     }
-    .photography-content {
+    .content {
         padding: 0px 0px;
         text-align: center;
     }
     .pd {
         padding: 0;
     }
+    .sign-up h2 {
+        font-size: 35px;
+        padding-bottom: 80px;
+    }
     /* photodiary part end here */
+    /* content */
 }
 
 
@@ -57,10 +62,21 @@
     /* menu bar responsive end */
     /* photodiary part start here */
     #photo-diary {
-        padding: 50px 0;
+        padding: 10px 0;
     }
     .pd {
         padding: 0;
+    }
+    .content {
+        padding-right: 35px;
+        text-align: center;
+    }
+    .content h2 {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    .content p {
+        font-weight: 400;
     }
     .photography-content h2 {
         font-size: 33px;
@@ -69,6 +85,31 @@
     .photography-content {
         padding: 0px 0px;
         text-align: center;
+    }
+    .sign-up h2 {
+        font-size: 27px;
+        padding-bottom: 80px;
+    }
+    #lifestyle-part,
+    #photodiary-second,
+    #lifestyle {
+        padding: 30px 0;
+    }
+    .load-button {
+        padding: 50px 0px;
+    }
+    .load-button a {
+        font-size: 16px;
+    }
+    .load-button a:hover {
+        font-size: 16px;
+    }
+    #footer-part {
+        padding: 30px 0px;
+    }
+    ul li a {
+        font-size: 14px;
+        padding-right: 5px;
     }
     /* photodiary part end here */
 }
@@ -104,29 +145,37 @@
     .photography-content {
         padding: 0px 0px;
     }
+    .content h2 {
+        font-size: 21px;
+    }
+    #lifestyle-part,
+    #photodiary-second,
+    #lifestyle {
+        padding: 30px 0;
+    }
+    .sign-up h2 {
+        font-size: 27px;
+        font-weight: 600;
+    }
     /* photodiary part end here */
 }
 
 
 /*Large devices (desktops, 992px and up)*/
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu ul li a {
+        margin-left: 30px;
+    }
+    .content h2 {
+        font-size: 29px;
+    }
+    .sign-up h2 {
+        font-size: 37px;
+    }
+}
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {}
-
-@media (min-width: 320px) and (max-width: 480px) {}
-
-@media (min-width: 320px) and (max-width: 568px) {}
-
-@media (min-width: 414) and (max-width: 736) {}
-
-@media (min-width: 600) and (max-width: 800) {}
-
-@media (min-width: 768) and (max-width: 1024) {}
-
-@media (min-width: 800) and (max-width: 1280) {}
-
-@media (min-width: 1080) and (max-width: 1920) {}

@@ -35,7 +35,7 @@ img {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .menu ul li a:active,
@@ -78,8 +78,17 @@ img {
 .content p {
     color: #626262;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: justify;
+}
+
+.content p:hover span {
+    display: block;
+    transition: .5s all ease;
+}
+
+.content span {
+    display: none;
 }
 
 .content a {
@@ -178,7 +187,7 @@ img {
 /* loade button */
 
 .load-button {
-    padding-top: 60px;
+    padding: 100px 0px 60px 0px;
 }
 
 .load-button a {
@@ -197,22 +206,33 @@ img {
     border-radius: 5px;
 }
 
+
+/* loade button */
+
+
+/* footer part start here */
+
 #footer-part {
     background-color: #f0f0f0;
-    padding: 30px 0px;
+    padding: 40px 0px;
 }
 
 ul li a {
-    color: #000000;
+    color: #626262;
     font-size: 16px;
     padding-right: 10px;
     text-transform: capitalize;
 }
 
+ul li a:hover {
+    text-decoration: none;
+    color: #101010;
+}
+
 .footer-right ul li a i {
     color: #626262;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
-/* loade button */
+/* footer part start here */
